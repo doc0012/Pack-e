@@ -1,0 +1,80 @@
+/* NavigationBar.css */
+
+.navnavnav {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  height: 40px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  color: #333;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: #333 !important;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-nav .nav-item .nav-dropdown {
+  color: #333;
+}
+
+.navbar-nav .nav-item .nav-dropdown:hover {
+  color: #007bff;
+}
+
+.form-inline .form-control {
+  width: 300px;
+  border-radius: 20px;
+  padding: 5px 15px;
+  border: 1px solid #ddd;
+}
+
+.form-inline .btn {
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.form-inline .btn:hover {
+  background-color: #0056b3;
+}
+
+.fa-shopping-cart, .fa-bars {
+  color: #333;
+  font-size: 20px;
+}
+
+.navbar-collapse.show {
+  display: flex !important;
+}
+
+.navbar-nav .nav-item .nav-dropdown.show {
+  display: block;
+}

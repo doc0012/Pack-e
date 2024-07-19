@@ -1,0 +1,39 @@
+/* General styles for the dashboard */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card-header {
+    font-weight: bold;
+    color: #000cba; /* Change the text color to blue */
+    background-color: #f0f8ff; /* Optional: change the background color if needed */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.progress-bar {
+    margin-bottom: 0px;
+}
+.mb-4{
+    transition: transform .2s; /* Animation */
+}
+.mb-4:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
